@@ -39,7 +39,7 @@
   /** Gradient colors */
   --gradient-1: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%);
   --gradient-2: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
-  --gradient-3: linear-gradient(0deg, #000d1a, transparent);
+  --gradient-3: linear-gradient(0deg, #000d1ad0 40%, transparent);
 
   /** Border colors */
   --border-wild-blue-yonder: hsla(216, 33%, 68%, 1);
@@ -587,7 +587,7 @@ body.nav-active { overflow: hidden; }
 
 .slider-card:is(:hover, :focus-visible) .slider-title { color: var(--text-carolina-blue); }
 
-.slider-subtitle { font-size: var(--fontSize-7); }
+.slider-subtitle { font-size: var(--fontSize-7); padding-right: 4px; }
 
 
 
