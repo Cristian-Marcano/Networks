@@ -718,6 +718,10 @@ body.nav-active { overflow: hidden; }
   line-height: var(--lineHeight-1);
 }
 
+.instalacion .card-text{
+  font-size: var(--fontSize-3);
+}
+
 .recent-post-card .card-badge {
   background-color: var(--bg-prussian-blue);
   max-width: max-content;
@@ -727,6 +731,10 @@ body.nav-active { overflow: hidden; }
   padding: 4px 15px;
   border-radius: var(--radius-pill);
   transition: var(--transition-1);
+}
+
+.instalacion .card-badge {
+  font-size: var(--fontSize-4);
 }
 
 .recent-post-card .card-badge:is(:hover, :focus-visible),
