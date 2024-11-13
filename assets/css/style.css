@@ -667,7 +667,7 @@ body.nav-active { overflow: hidden; }
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 18px;
+  padding: 10px;
   border-radius: var(--radius-16);
 }
 
@@ -1225,6 +1225,8 @@ body.nav-active { overflow: hidden; }
   .feature-list li:nth-child(-n+2) { width: calc(50% - 15px); }
 
   .feature-list li:nth-child(n+3) { width: calc(33.33% - 20px); }
+
+  .feature-list li:nth-child(n+6) { width: calc(50% - 15px); }
 
   .feature-list li:nth-child(n+3) .headline-3 { --fontSize-2: 2rem; }
 
